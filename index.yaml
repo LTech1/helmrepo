@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  chatapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-11T19:31:16.925616404Z"
+    description: A Helm chart for Kubernetes
+    digest: 0ebb691cfca750a9665b324b56448acbb04ef89887936826b0b0ae4fd77dae9c
+    name: chatapp
+    type: application
+    urls:
+    - https://ltech1.github.io/helmrepo/chatapp-0.1.0.tgz
+    version: 0.1.0
   tdapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-11T19:21:05.150866548Z"
+    created: "2021-04-11T19:31:16.926264889Z"
     description: A Helm chart for Kubernetes
     digest: 4ca5b0c46536241ebdddc37643509617cca988574da9f7578ca66224447d9d7a
     name: tdapp
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://ltech1.github.io/helmrepo/tdapp-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-11T19:21:05.150112341Z"
+generated: "2021-04-11T19:31:16.924846616Z"
